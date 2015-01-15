@@ -128,4 +128,115 @@
 	width: 100%;
 }
 
+/* OMNIBOX */
+
+.omnibox {
+	position: relative;
+}
+
+.omnibox-list {
+
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	top: 2px;
+	left: 2px;
+}
+
+.omnibox-tag {
+	display: inline-block;
+	background-color:#6f6ff0;
+	color: #fff;
+	font-size: 0.75em;
+	border-radius: 5px;
+	padding: 3px;
+	margin-right: 3px;
+}
+
+.omnibox-tag a {
+	text-decoration: none;
+	color: #fff;
+	background-color: #5555b4;
+	padding: 1px 3px;
+	margin-right: 3px;
+	border-radius: 3px;
+}
+
+.omnibox-input {
+
+	padding-left: 205px;
+}
+
+/* CHUNKY LISTS */
+
+.chunky-list {
+
+	width: 600px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+}
+
+.chunky-list-bg {
+
+	background: #ccc;
+	background: -webkit-linear-gradient(#fff, #ccc);
+	background:    -moz-linear-gradient(#fff, #ccc);
+	background:         linear-gradient(#fff, #ccc);
+
+	padding: 10px;
+}
+
+.chunky-list-title {
+	font-size: 0.9em;
+	font-weight: 700;
+	padding: 0;
+	margin: 0;
+}
+
+.chunky-list-wrapper{
+}
+.chunky-list-items{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.chunky-list-item {
+	border-bottom: 1px solid #ccc;
+	padding: 10px;
+}
+
+.chunky-list-item a{
+
+	text-decoration: none;
+}
+
+.chunky-list-icon {
+	float: left;
+	width: 15px;
+	color: transparent;
+	background: url("repo-icon.png") 0 0 no-repeat;
+}
+
+.chunky-list-link {
+	font-weight: 700;
+	font-size: 0.9em;
+}
+
+.chunky-list-wrapper{
+	overflow: hidden;
+	padding: 0 10px;
+
+}
+
+.chunky-list-description{
+	color: #000;
+	font-size: 0.8em;
+	padding: 3px 0;
+}
+
+.chunky-list-padded{
+	padding: 10px;
+}
 
