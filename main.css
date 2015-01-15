@@ -1,0 +1,132 @@
+/* ADD YOUR STYLES HERE */
+
+*{
+	box-sizing: border-box;
+}
+/* FORMS */
+
+.form-label {
+	display: inline-block;
+	min-width: 160px;
+	padding-right: 25px;
+	text-align: right;
+}
+
+.form-label-inline {
+	padding-right: 10px;
+}
+
+
+.form-field {
+	width: 300px;
+	max-width: 100%;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	padding: 5px;
+	margin: 10px;
+
+}
+
+.form-offset {
+
+	margin-left: 200px;
+	margin-bottom: 20px;
+}
+
+.text-medium {
+	width: 165px;
+
+
+}
+
+.text-small {
+	width: 50px;
+}
+
+.button {
+
+}
+
+
+
+/* VALIDATION */
+
+.form .invalid-field {
+    box-shadow: 0 0 5px #d45252;
+    border-color: #d45252;
+}
+
+.form .valid-field {
+    box-shadow: 0 0 5px #1bff45;
+    border-color: #1bff45;
+}
+
+.is-invalid {
+	color: #d45252;
+}
+
+.is-valid{
+	color: #1bff45;
+}
+
+
+/* SEARCH BAR */
+
+
+.search-bar{
+
+	width: 100%;
+	height: 60px;
+
+	padding-left: 105px;
+	padding-right: 105px;
+
+	background: #d5d5d5;
+	border: 1px solid #999999;
+	border-radius: 10px;
+
+}
+
+.column {
+	float: left;
+	position: relative;
+}
+
+.left {
+	width: 90px;
+	margin-left: -90px;
+	margin-top: 20px;
+	padding-left: 5px;
+
+}
+
+.center {
+	width: 100%;
+	margin: 16px 5px;
+}
+
+.search-bar-input {
+	border-radius: 5px;
+	border: 1px solid #ccc;
+	height: 25px;
+}
+
+
+.right {
+	width: 90px;
+	height: 25px;
+	margin-right: -120px;
+	margin-top: 16px;
+
+	background-color: #e06d77;
+	color: #fff;
+	border: 0;
+	border-radius: 5px;
+}
+
+
+.search-bar-input {
+	width: 100%;
+}
+
+
